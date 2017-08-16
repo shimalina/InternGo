@@ -1,0 +1,411 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign Up form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="internship, signup" />
+<link href="bootstrap.min.css" type="text/css" rel="stylesheet"/>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<style type="text/css">
+/*html{
+  background-image: url(file:///D:/Extra/2016/Internship/Final%20Project/images/banner.jpg) ;
+}
+*/
+html, body{
+  background:url(images/banner.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center;
+  background-size:cover;
+  color: black;
+  margin: 0%;
+  padding: 0%;
+ }
+
+
+form{
+  width: 40%;
+  margin:auto;
+  margin-top: -3%; 
+
+  border: 2px solid black;
+  /*padding:4%;
+  */
+  background-color:rgba(250,250,252,.1);
+  color: #FF6666 ;
+
+
+}
+input{
+  
+  padding: 1%;
+  font-family:Tahoma, Geneva, sans-serif;
+
+}
+
+#sign{
+  background-color: #EE2B2B;
+  color: white;
+  height: 20%;
+  text-align:center;
+  margin-bottom:5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.long1{
+  padding: 1% 4%;
+  border: none;
+}
+
+h5{
+  padding-left: 4%;
+  color: grey;
+  text-decoration: none;
+  padding-bottom: 4%;
+  text-align: center;
+}
+
+h5 a{
+  text-decoration:none;
+  padding-left: 6%;
+  color: #EE2B2B;
+}
+
+
+.button
+{
+    
+    border-radius: 8%;
+    cursor: pointer;
+    background-color: #EE2B2B ; 
+    border: none;
+    color: white;
+    padding: 2% 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 4%;
+    width: 20%;
+  
+
+}
+
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.logo h1{
+  margin: 3% 4%;
+  font-size:1.8em;
+  font-family: 'Montserrat', sans-serif;
+}
+.logo h1 a{
+  text-decoration:none;
+  color:#fff;
+}
+.logo h1 a span{
+  width: 40px;
+    height: 40px;
+    display:inline-block;
+    border: 2px solid #fff;
+    -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
+    -moz-transform: rotate(45deg) translate3d(0, 0, 0);
+    -ms-transform: rotate(45deg) translate3d(0, 0, 0);
+    -o-transform: rotate(45deg) translate3d(0, 0, 0);
+    transform: rotate(45deg) translate3d(0, 0, 0);
+  margin-right: 12px;
+}
+.logo h1 a b{
+  width: 40px;
+    height: 40px;
+    display: inline-block;
+    -webkit-transform: rotate(-45deg) translate3d(0, 0, 0);
+    -moz-transform: rotate(-45deg) translate3d(0, 0, 0);
+    -ms-transform: rotate(-45deg) translate3d(0, 0, 0);
+    -o-transform: rotate(-45deg) translate3d(0, 0, 0);
+    transform: rotate(-45deg) translate3d(0, 0, 0);
+      line-height: 1.1em;
+    text-align: center;
+}
+.logo h1 a i{
+  display: block;
+    font-style: normal;
+        margin-left: 3em;
+    font-size: 19px;
+    
+}
+
+
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="logo">
+        <h1><a href="index.html"><span><b>I</b></span><i>nternGO</i></a></h1>
+      </div>
+            
+
+<form name="form"  method="post">
+
+  <div id = "sign">
+  <h3>REGISTER</h3>
+  </div>
+  <div class="long1">
+    <input type="text" name="uname" placeholder="Username"  required><span id="error_name" style="color:red"></span>
+  </div>
+    <br>
+  
+  <div class="long1">
+    <input type="text" name="email" placeholder="Email"  required><span id="error_email" style="color:red"></span>
+  </div>
+    <br>
+    <div class="long1">
+     <input type="password" name="password" placeholder="Password" required ><span id="error_pass" style="color:red"></span>
+  </div>
+  <br>
+  <div class="long1">
+     <input type="password" name="cpassword" placeholder="Confirm Password" required ><span id="error_cpass" style="color:red"></span>
+  </div>
+  <br>
+  <div  class="long1">
+        <input type="radio" name="radiobutton" value="Female">
+        <label >Female</label>
+        &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="radiobutton" value="Male">
+        <label >Male</label>
+  </div>
+ 
+  <span id="error_gender" style="color:red"></span>
+  <br>
+  <div>
+        <h4 class="long1">Birthday</h4>
+      </div>
+      <div class="long1">
+        <select name="birthday_month" >
+          <option value="" selected >Month</option>
+          <option value="1">Jan</option>
+          <option value="2">Feb</option>
+          <option value="3">Mar</option>
+          <option value="4">Apr</option>
+          <option value="5">May</option>
+          <option value="6">Jun</option>
+          <option value="7">Jul</option>
+          <option value="8">Aug</option>
+          <option value="9">Sep</option>
+          <option value="10">Oct</option>
+          <option value="11">Nov</option>
+          <option value="12">Dec</option>
+        </select>
+        &nbsp;&nbsp;
+        <select name="birthday_day" >
+          <option value="" selected>Day</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+        &nbsp;&nbsp;
+        <select name="birthday_year">
+          <option value="" selected>Year</option>
+          <option value="2013">2013</option>
+          <option value="2012">2012</option>
+          <option value="2011">2011</option>
+          <option value="2010">2010</option>
+          <option value="2009">2009</option>
+          <option value="2008">2008</option>
+          <option value="2007">2007</option>
+          <option value="2006">2006</option>
+          <option value="2005">2005</option>
+          <option value="2004">2004</option>
+          <option value="2003">2003</option>
+          <option value="2002">2002</option>
+          <option value="2001">2001</option>
+          <option value="2000">2000</option>
+          <option value="1999">1999</option>
+          <option value="1998">1998</option>
+          <option value="1997">1997</option>
+          <option value="1996">1996</option>
+          <option value="1995">1995</option>
+          <option value="1994">1994</option>
+          <option value="1993">1993</option>
+          <option value="1992">1992</option>
+          <option value="1991">1991</option>
+          <option value="1990">1990</option>
+        </select>
+      </div>
+<span id="error_birth" style="color:red"></span>
+  <br>
+  <br>
+    <button value="Submit!" class="button"  onClick="validate()"    >Sign Up</button>
+    <br>
+    <br>
+
+    <h5>Already have an account?   <a href="signin.html" >Sign In</a></h5>
+  
+  
+  
+</form>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+function validate(){
+
+    var n = document.form.uname.value;
+    var x = document.form.email.value;
+    var p = document.form.password.value; 
+    var cp = document.form.cpassword.value; 
+  
+    var fmonth = document.form.birthday_month.value,   fday = document.form.birthday_day.value,     fyear = document.form.birthday_year.value;
+
+    var at = x.indexOf("@");
+    var dot = x.lastIndexOf(".");
+    var namevalid = /^\S*$/;
+    var status = false;
+
+   //name  
+
+    if(n="" || n = null){
+       document.getElementById("error_name").innerHTML="* Please enter the Username w/o space";
+      status =false;
+   
+    }
+    else if(!namevalid.test(n)){
+     document.getElementById("error_name").innerHTML="* Username contain only letters";
+      status =false;
+      
+    }
+
+    else{
+      document.getElementById("error_name").innerHTML="* Valid Username";
+      status =true;
+    
+    }
+
+
+    // Email
+
+    if (at<1 ||  dot+2>=x.length || dot<at+2 || x==null || x == "" ) {
+        
+        document.getElementById("error_email").innerHTML="* Not a valid email";
+        status = false;
+
+       }
+
+    else{
+      document.getElementById("error_email").innerHTML="* valid email";
+      status = true;
+    }
+
+
+// Password
+
+   if(  p == "" || p.length<7 ){
+      
+      document.getElementById("error_pass").innerHTML="* Password must contain minimun 7 value";
+      status =false;
+    }
+
+    else{
+      document.getElementById("error_pass").innerHTML="* valid password";
+      status =true;
+    }
+
+// Confirm Password
+
+    if(  cp == "" || cp.length<7 ){
+      
+      document.getElementById("error_cpass").innerHTML="* Password must contain minimun 7 value";
+      status =false;
+    }
+
+    else{
+      document.getElementById("error_cpass").innerHTML="* valid password";
+      status =true;
+    }
+
+// Check password
+
+   if(p !=  cp){
+     document.getElementById("error_cpass").innerHTML = "emails are not matching, Re-enter";
+     status = false;
+     }
+   
+
+// Gender
+
+    if(document.form.radiobutton[0].checked == false && document.form.radiobutton[1].checked == false){
+        document.getElementById("error_gender").innerHTML = "Select your gender";
+       status = false;
+      }
+
+  // Birth Month , day, year
+
+       if (fmonth == "") {
+        document.form.birthday_month.focus();
+    document.getElementById("error_birth").innerHTML = "select the birthday month";
+        status = false;
+     }
+   if (fday == "") {
+        document.form.birthday_day.focus();
+    document.getElementById("error_birth").innerHTML = "select the birthday day";
+        status = false;
+     }
+   if (fyear == "") {
+        document.form.birthday_year.focus();
+    document.getElementById("error_birth").innerHTML = "select the birthday year";
+        status = false;
+     }
+     // Final submission 
+
+if(name != '' && x != '' && p != '' && cp != '' && fmonth != '' && fday != '' && fyear != ''){
+   alert("form submitted successfully");
+  }
+
+      
+   
+return status;
+    
+}
+
+</script>
+
+</body> 
+
+</html>
