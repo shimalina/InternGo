@@ -1,0 +1,341 @@
+
+html,body{
+	background:#fff;
+	font-size: 100%;	
+	font-family: 'Muli', sans-serif;
+}
+body a{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+ ul{
+	padding: 0;
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6,label,p{
+	margin:0;	
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+}
+/*--header--*/
+.head {
+	padding: 1em 0em;	
+	    background:rgba(255, 255, 255, 0.32);
+}
+.banner {
+    margin-top: 11em;
+}
+.header{
+	background:black no-repeat 0px bottom;
+	width:100%;
+	height:800px;
+	text-align:center;
+	background-size:cover;
+}
+.header1{
+	height:92px;
+}
+.banner-text{
+    border: 2px solid #13d0ab;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+	    -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
+    -moz-transform: rotate(45deg) translate3d(0, 0, 0);
+    -ms-transform: rotate(45deg) translate3d(0, 0, 0);
+    -o-transform: rotate(45deg) translate3d(0, 0, 0);
+    transform: rotate(45deg) translate3d(0, 0, 0);
+}
+.banner h2{
+	font-size: 4em;
+    color: #fff;
+    -webkit-transform: rotate(-45deg) translate3d(0, 0, 0);
+    -moz-transform: rotate(-45deg) translate3d(0, 0, 0);
+    -ms-transform: rotate(-45deg) translate3d(0, 0, 0);
+    -o-transform: rotate(-45deg) translate3d(0, 0, 0);
+    transform: rotate(-45deg) translate3d(0, 0, 0);
+    display: block;
+    line-height: 1.4em;
+    width: 100px;
+    height: 100px;
+}
+
+.banner h2:hover{
+color: #13d0ab;
+}
+
+
+.banner p{
+	font-size: 0.9em;
+    color: #13d0ab;;
+    line-height: 2em;
+    width: 50%;
+    margin: 0em auto ;
+}
+.banner span{
+	display:block;
+	margin:5em 0;
+}
+.banner-t {
+    text-align: center;
+    margin: 6em auto;
+    width: 20%;
+    position: relative;
+}
+.banner-t b{
+	width: 100%;
+    height: 2px;
+    display: block;
+    background: #13d0ab;
+    margin-bottom: 3px;
+}
+.banner-t b.lin{
+	width: 80%;
+	margin:0 auto;
+}
+.banner-t  span{
+	width: 40px;
+    height: 40px;
+    display: block;
+    background: rgb(35, 39, 42);
+    position: absolute;
+    top: -7px;
+    left: 45%;  
+}
+.banner-t  span i{
+	width: 20px;
+    height: 20px;
+    display: block;
+    border: 2px solid #13d0ab;
+    -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
+    -moz-transform: rotate(45deg) translate3d(0, 0, 0);
+    -ms-transform: rotate(45deg) translate3d(0, 0, 0);
+    -o-transform: rotate(45deg) translate3d(0, 0, 0);
+    transform: rotate(45deg) translate3d(0, 0, 0);
+    margin-left: 0.7em;
+}
+/*----*/
+.link-effect-4 a {
+  padding: 0 10px;
+  margin: 0 20px;
+  text-shadow: none;
+  position: relative;
+}
+.link-effect-4 a::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  padding: 0 0px;
+  max-height: 0;
+  color: #13d0ab;
+  content: attr(data-hover);
+  -webkit-transition: max-height 0.5s;
+  -moz-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+}
+.link-effect-4 a:hover::before {
+  max-height: 100%;
+}
+/*--header--*/
+.logo h1{
+	font-size:1.8em;
+	font-family: 'Montserrat', sans-serif;
+}
+.logo h1 a{
+	text-decoration:none;
+	color:#fff;
+}
+.logo h1 a span{
+	width: 40px;
+    height: 40px;
+    display:inline-block;
+    border: 2px solid #fff;
+    -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
+    -moz-transform: rotate(45deg) translate3d(0, 0, 0);
+    -ms-transform: rotate(45deg) translate3d(0, 0, 0);
+    -o-transform: rotate(45deg) translate3d(0, 0, 0);
+    transform: rotate(45deg) translate3d(0, 0, 0);
+	margin-right: 12px;
+}
+.logo h1 a b{
+	width: 40px;
+    height: 40px;
+    display: inline-block;
+    -webkit-transform: rotate(-45deg) translate3d(0, 0, 0);
+    -moz-transform: rotate(-45deg) translate3d(0, 0, 0);
+    -ms-transform: rotate(-45deg) translate3d(0, 0, 0);
+    -o-transform: rotate(-45deg) translate3d(0, 0, 0);
+    transform: rotate(-45deg) translate3d(0, 0, 0);
+	    line-height: 1.1em;
+    text-align: center;
+}
+.logo h1 a i{
+	display: block;
+    font-style: normal;
+        margin-left: 3em;
+    font-size: 19px;
+    
+}
+.navbar-brand {
+   height: auto; 
+    padding: 0; 
+    font-size: 18px; 
+    line-height: 20px;
+}
+.navbar-nav {
+    float: right;
+	margin-top: 1.45em;
+}
+.header-left{
+	float:right;
+	margin-top: 1.4em;
+}
+.header-left ul li {
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    margin: 0 1em;
+/*-- w3layouts --*/
+}
+.header-left ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.header-left ul li a:hover {
+    color: #13D0AB;
+}
+.header-left ul li i{
+    left: -.5em;
+}
+.navbar-top {
+    float: left;
+	width:70%;
+}
+.navbar-default {
+    border: none;
+    background: none;
+    min-height: auto;
+    margin-bottom: 0;
+}
+div#bs-example-navbar-collapse-1 {
+    padding: 0;
+}
+ul.nav.navbar-nav li a {
+    font-size: 1.1em;
+    color: #FFFFFF;
+    margin: 0 15px;
+    padding: 0px 0;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background:none !important;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+ul.nav.navbar-nav li.active a {
+       color:#13d0ab;
+    background: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background:none;
+}
+
+#sign-in {
+    padding: .4em 1.2em;
+    color: #fff;
+    border: 1px solid #13d0ab;
+    font-size: 1.2em;
+    outline: none;
+    margin-right: 2%;
+
+}
+
+#sign-in:hover {
+    background: #13d0ab;
+    color: #000;
+}
+
+.dpm{
+  background: transparent;
+  color: black;
+
+}
+
+.dpm li:hover a {
+  background: #13d0ab;
+  color: #2f3036;
+ 
+}
+
+/*Hover state for dropdown links*/
+.dpm li:hover a:hover {
+  background:#13d0ab;
+  color: #fff;
+}
+
+.dpm li {
+  display: block;
+  float: none;
+}
+
+/*Prevent text wrapping*/
+.dpm li a {
+  width: auto;
+  min-width: 100px;
+  padding: 0 20px;
+
+}
+
+
+
+
+
+/*--//header--*/
+
+
+.search{
+  margin-top: 20%;
+  background-color: grey;
+  color: black;
+  border: 2px double white;
+  padding: 2%;
+}
+
+#if{
+  background-color: white;
+border: 2px double white;
+ 
+
+  margin-top: 10%;
+  width: 100%;
+}
+
+
+.copy{
+  background:#232323;
+    padding: 1.5em 0;
+}
+p.footer-grid {
+    font-size: 1em;
+    color: #fff;
+  text-align:center;
+}
+p.footer-grid a{
+  text-decoration:none;
+  color:#13d0ab;
+}
+p.footer-grid a:hover{
+  color:#fff;
+}
+
+
+#se{
+
+}

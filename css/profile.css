@@ -1,0 +1,41 @@
+
+#div1{
+	background-color: #06B0A0;
+	/*background-image: url(../images/Header1.png);*/
+	
+	height: 100px;
+	background-repeat: no-repeat;
+
+	margin: 0 0 0 0;
+}
+
+#header1{
+	color: white;
+	font-size: 300%;
+	font-weight: bold;
+	padding-top:  10px;
+	padding-left: 30px;
+	text-shadow: 10px 8px 15px black;
+	text-decoration: none;
+}
+
+#header1 a{
+	text-decoration: none;
+	color: white;
+}
+
+h1{
+	text-align: center;
+	color: #06B0A0;
+}
+
+.ccontent{
+	padding-top: 10%;
+	padding-left:30%;
+}
+
+#searchbox{
+	background-color: grey;
+	height: 40px;
+
+}

@@ -1,0 +1,267 @@
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background:url(../images/services.jpg)repeat 0px 0px;
+	background-size:cover;
+  text-decoration: none;
+}
+
+.sap_tabs {
+ margin: 3em auto 0;
+ width:32%;
+  text-align: center;
+  -webkit-appearance: none;
+    background-color: rgba(25, 30, 33, 0.86);
+ }
+ .register {
+    padding: 1.3em 0;
+}
+.resp-tab-content {
+ 
+}
+.register input[type="text"], select {
+	outline: none;
+    font-size:0.95em;
+	color: #eee;
+    padding: .8em 1em ;
+	border:none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	width: 86%;
+    margin: 0 0 15px 0 ;
+	font-family: 'Open Sans', sans-serif;
+	background:rgba(17, 18, 22, 0.68) ;
+	    border-radius: 5px;
+}
+.register input.user, select {
+   background:rgba(17, 18, 22, 0.68) ;
+}
+.sign-up {
+    padding-bottom: 1em;
+}
+.sign-up input[type="submit"] {
+    background:rgba(0, 183, 201, 0.23);
+    color: #fff;
+    border: none;
+    font-size: 1.3em;
+    padding: 0.4em 1em;
+    width: 91%;
+    cursor: pointer;
+    outline: none;
+    display:block;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    font-family: 'Cuprum', sans-serif;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    margin:0 auto;
+    
+}
+
+.sign-up input[type="submit"]:hover{
+	color: #fff;
+    background: rgba(249, 145, 4, 0.18);
+}
+ ::-webkit-input-placeholder{
+	color:#eee;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #eee; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #eee;  
+}
+
+:-ms-input-placeholder {  
+   color: #eee;  
+}
+
+.footer {
+    text-align: center;
+	padding:2em 0;
+}
+.footer p {
+    font-size: .9em;
+    color: #fff;
+    margin: 0px;
+}
+.footer p a {
+    color: #fff;
+}
+.footer p a:hover {
+   text-decoration:none;
+}
+
+
+#welcome{
+  color: white;
+  padding-top: 4%;
+  font-size: 100%;
+ 
+}
+
+.star
+{
+    color: white;
+   
+    margin-bottom: 1%;
+    font-size:95%;
+}
+
+.star input{
+    margin-left: 10%;
+    color: white;
+
+}
+
+/**responsive**/
+
+@media (max-width: 1440px){
+.sap_tabs {
+    width: 36%;
+}
+}
+@media (max-width: 1366px){
+.sap_tabs {
+    width: 39%;
+}
+}
+@media (max-width: 1280px){
+.sap_tabs {
+    width: 41%;
+}
+@media (max-width: 1080px){
+.sap_tabs {
+    width: 48%;
+}
+}
+@media (max-width: 1024px){
+.sap_tabs {
+    width: 51%;
+}
+.footer {
+    text-align: center;
+    padding: 4em 0;
+}
+}
+@media (max-width: 991px){
+.header h1 {
+    font-size: 3em;	
+}
+.sap_tabs {
+    width: 54%;
+	margin: 2em auto 0;
+}
+.header {
+    margin-top: 3em;
+}
+.footer {
+    text-align: center;
+    padding: 2em 0;
+}
+}
+@media (max-width: 800px){
+.sap_tabs {
+    width: 65%;
+}
+}
+@media (max-width: 768px){
+.sap_tabs {
+    width: 68%;
+}
+.header {
+    margin-top: 8.5em;
+}
+.footer {
+    padding: 8em 0;
+}
+}
+@media (max-width: 736px){
+.header {
+    margin-top: 3em;
+}
+.sap_tabs {
+    width: 73%;
+}
+.footer {
+    padding: 2em 0;
+}
+}
+@media (max-width: 667px){
+.sap_tabs {
+    width: 81%;
+}
+}
+@media (max-width: 640px){
+.sap_tabs {
+    width: 82%;
+}
+}
+@media (max-width: 600px){
+.sap_tabs {
+    width: 90%;
+}
+@media (max-width: 568px){
+.sap_tabs {
+    width: 95%;
+}
+}
+@media (max-width: 480px){
+.sap_tabs {
+    width: 85%;
+	margin: 3em auto 0;
+}
+.footer p {
+    line-height: 1.8em;
+}
+}
+@media (max-width: 414px){
+.header h1 {
+    font-size: 2.5em;
+}
+.sap_tabs {
+    width: 90%;	
+}
+.register input[type="text"], select, {
+    width: 75%;	
+	font-size: 0.8em;
+}
+.sign-up input[type="submit"] {
+    width: 83%;   
+	font-size: 1.2em;
+}
+.footer p {
+    font-size: 0.8em;
+}
+}
+@media (max-width: 384px){
+.sap_tabs {
+    width: 90%;
+    margin: 2em auto 0;
+}
+}
+@media (max-width: 320px){
+.header h1 {
+    font-size: 2.3em;
+}
+.sap_tabs {
+    width: 93%;
+	margin: 2em auto 0;
+}
+.header {
+    margin-top: 2em;
+}
+.footer {
+    text-align: center;
+    padding: 1em 0;
+}	
+}
